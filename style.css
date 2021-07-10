@@ -1,0 +1,53 @@
+
+
+ul.nav{
+                text-align: center;
+                top: 1%;
+                margin-left: 0px;
+                padding-left: 0px;
+                list-style: none;
+            }
+            .nav li { 
+                display: inline; 
+            }
+            ul.nav a {
+                display: inline-block;
+                width: 5em;
+                padding:10px;
+                background-color: #f4f4f4;
+                text-decoration: none;
+                color: #333;
+                text-align: center;
+            }
+            ul.nav a:hover{
+                background-color: #333;
+                color: #f4f4f4;
+            }
+
+.two_lang {
+
+    display:flex;
+    flex-flow:row wrap;
+    clear:both;
+    margin-left: 20%;
+    
+}
+.two_lang p {
+
+    border-radius:8px;
+    width:99%;
+    margin:2px;
+    padding:8px;
+    border:1px solid #E9B675;
+}
+.two_lang>p:nth-child(odd) {
+    background:#fff6e6;
+}
+.two_lang>p:nth-child(even) {
+    background:#f5fff5;
+}
+
+.two_lang p {
+    width:35%;
+}
+
